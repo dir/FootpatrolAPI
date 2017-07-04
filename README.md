@@ -14,11 +14,15 @@ $ cd DIRECTORY_CONTAINING_FOOTPATROLAPI
 $ pip install -r requirements.txt
 ```
 
-#####  2. Run
+#####  2. Set your cart_id
+Edit the **main.py** file and set the cart_id variable to your CART ID. I can't tell you how to get this
+
+#####  3. Run
 ```sh
 $ cd DIRECTORY_CONTAINING_FOOTPATROLAPI
 $ python main.py
 ```
+Then enter your PID.SIZE code into the input.
 
 ## Todos
 
