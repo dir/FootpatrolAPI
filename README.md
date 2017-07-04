@@ -22,7 +22,23 @@ Edit the **main.py** file and set the cart_id variable to your CART ID. I can't 
 $ cd DIRECTORY_CONTAINING_FOOTPATROLAPI
 $ python main.py
 ```
-Then enter your PID.SIZE code into the input.
+#####  3. ATC
+1. Fully close the Footpatrol mobile app on your phone.
+2. Type in your desired PID.SIZE and then press enter.
+3. Open the Footpatrol mobile app
+4. The item should now be in your cart.
+
+## Troubleshooting
+1. The item isn't in my cart what happened?
+    - Your cart id is incorrect
+    - Your PID.SIZE is incorrect
+    - The desired product is out of stock
+
+2. How do I get the cart ID?
+Vaguely, you need to view the network requests of your mobile device and get it from there.
+
+3. What is the x-api-key?
+The x-api-key allows you to change the script to work for other websites besides Footpatrol (but you need to do a bit more than just change that). I thought I'd make it a variable incase they ever change it.
 
 ## Todos
 
