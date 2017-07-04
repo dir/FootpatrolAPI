@@ -1,6 +1,9 @@
 from bs4 import BeautifulSoup
 import requests
 
+# Written by Luke Davis (@R8T3D)
+# Under the MIT license
+
 # you need to change this to yours 
 cart_id = 'YOUR CART ID'
 
